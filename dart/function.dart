@@ -5,9 +5,9 @@ void main() {
 
   int callColor([String newColor = "pink"]){
 
-  List<dynamic> colors = ["red","blue","green"];
+  List<dynamic> colors = ["red","blue","green","black"];
 
-  
+  colors.add(newColor);
 
   for(var i in colors){
     print(i);
@@ -15,7 +15,7 @@ void main() {
 
   return colors.length;
 }
-
+  
 
 String callGen(int year) {
   print(year);
